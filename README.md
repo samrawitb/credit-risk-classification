@@ -1,10 +1,10 @@
 # credit-risk-classification
 
-1. Overview of the Analysis
+Overview of the Analysis
    
 The purpose of this analysis is to evaluate the performance of a logistic regression model in predicting loan statuses. The model was trained to classify loans as either '0' (healthy loan) or '1' (high-risk loan). This analysis aims to assess the model’s accuracy, precision, and recall, and provide recommendations on whether the model is suitable for deployment in production for use by the company.
 
-2. Results
+Results
 
 •Accuracy Score: 99%
 The model correctly predicted the loan status in 99% of the cases in the test set, demonstrating high overall accuracy.
@@ -16,7 +16,7 @@ The model's precision indicates that when it predicts a loan as high-risk, it is
 The recall score shows that the model correctly identifies 87% of actual high-risk loans. This means 13% of high-risk loans were missed by the model (false negatives).
 
 
-3. Summary
+Summary
    
 The logistic regression model performed exceptionally well on the '0' (healthy loan) class, with near-perfect accuracy and precision. However, it demonstrated slightly lower recall for the '1' (high-risk loan) class, likely due to the class imbalance in the data (more healthy loans than high-risk loans).
 
