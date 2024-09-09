@@ -25,7 +25,9 @@ Recommendation:
 I recommend using this model for production, with the caveat that the recall for high-risk loans can be improved. The model’s high precision means that when it flags a loan as high-risk, it is very likely correct, which is valuable for minimizing unnecessary interventions. However, the slightly lower recall suggests that some high-risk loans might be missed. This could be mitigated by exploring techniques such as:
 
 •	Oversampling the minority class (high-risk loans).
+
 •	Adjusting the decision threshold to increase recall for high-risk loans.
+
 •	Trying more advanced machine learning models, such as Random Forest or Gradient Boosting.
 
 Overall, this model provides strong performance, especially in identifying healthy loans, and is a solid candidate for deployment with some additional tuning to reduce false negatives.
