@@ -3,7 +3,7 @@
 1. Overview of the Analysis
 The purpose of this analysis is to evaluate the performance of a logistic regression model in predicting loan statuses. The model was trained to classify loans as either '0' (healthy loan) or '1' (high-risk loan). This analysis aims to assess the model’s accuracy, precision, and recall, and provide recommendations on whether the model is suitable for deployment in production for use by the company.
 
-2. Results
+3. Results
 
 •	Accuracy Score: 99%
 The model correctly predicted the loan status in 99% of the cases in the test set, demonstrating high overall accuracy.
