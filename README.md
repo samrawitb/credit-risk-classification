@@ -19,6 +19,7 @@ The purpose of this analysis is to evaluate the performance of a logistic regres
 The logistic regression model performed exceptionally well on the '0' (healthy loan) class, with near-perfect accuracy and precision. However, it demonstrated slightly lower recall for the '1' (high-risk loan) class, likely due to the class imbalance in the data (more healthy loans than high-risk loans).
 
 Recommendation:
+
 I recommend using this model for production, with the caveat that the recall for high-risk loans can be improved. The model’s high precision means that when it flags a loan as high-risk, it is very likely correct, which is valuable for minimizing unnecessary interventions. However, the slightly lower recall suggests that some high-risk loans might be missed. This could be mitigated by exploring techniques such as:
 
 •	Oversampling the minority class (high-risk loans).
