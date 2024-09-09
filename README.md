@@ -17,6 +17,7 @@ The recall score shows that the model correctly identifies 87% of actual high-ri
 
 
 3. Summary
+   
 The logistic regression model performed exceptionally well on the '0' (healthy loan) class, with near-perfect accuracy and precision. However, it demonstrated slightly lower recall for the '1' (high-risk loan) class, likely due to the class imbalance in the data (more healthy loans than high-risk loans).
 
 Recommendation:
