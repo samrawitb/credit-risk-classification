@@ -5,14 +5,14 @@ The purpose of this analysis is to evaluate the performance of a logistic regres
 
 2. Results
 
-•	Accuracy Score: 99%
-The model correctly predicted the loan status in 99% of the cases in the test set, demonstrating high overall accuracy.
+  •	Accuracy Score: 99%
+  The model correctly predicted the loan status in 99% of the cases in the test set, demonstrating high overall accuracy.
 
-•	Precision (for high-risk loans '1'): 0.98
-The model's precision indicates that when it predicts a loan as high-risk, it is correct 98% of the time. This reduces the chances of false positives (i.e., labeling healthy loans as high-risk).
+  •	Precision (for high-risk loans '1'): 0.98
+  The model's precision indicates that when it predicts a loan as high-risk, it is correct 98% of the time. This reduces the chances of false positives (i.e., labeling healthy loans as high-risk).
 
-•	Recall (for high-risk loans '1'): 0.87
-The recall score shows that the model correctly identifies 87% of actual high-risk loans. This means 13% of high-risk loans were missed by the model (false negatives).
+  •	Recall (for high-risk loans '1'): 0.87
+  The recall score shows that the model correctly identifies 87% of actual high-risk loans. This means 13% of high-risk loans were missed by the model (false negatives).
 
 
 3. Summary
